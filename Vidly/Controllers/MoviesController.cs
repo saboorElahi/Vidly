@@ -32,6 +32,35 @@ namespace Vidly.Controllers
             // View Bag                                     // Not a good way
         }
 
+        public ActionResult Customer()
+        {
+            var movies2 = new List<Movie>
+            {
+                new Movie {Name = "Shrek"},
+                new Movie {Name = "Wall-e"}
+            };
+
+            var customers2 = new List<Customer>
+            {
+                new Customer {Name = "John Smith"},
+                new Customer {Name = "Marry Williams"}
+            };
+
+            var viewModel = new RandomMovieViewModel
+            {
+                Movie = movies2[0],
+                Customers = customers2
+            };
+
+            return View(viewModel);
+        }
+
+        public ActionResult CustomerDetail(string cst)
+        {
+            ViewBag.nameOfCst = cst;
+            return View();
+        }
+
         public ActionResult Edit(int id)           // Parameter is id.    / link / Edit / 3 will work because id is same as id in routeConfig.
         {
             return Content("id=" + id);

@@ -1,0 +1,37 @@
+﻿
+
+<link href="~/Content/bootstrap-lumen.css" rel="stylesheet" />
+
+@model Vidly.ViewModels.RandomMovieViewModel
+
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+
+@if (Model.Customers.Count == 0)
+{
+    <text>There is no Customer</text>
+}
+else
+{
+
+    <table
+        class=
+        "table table­‐bordered table­‐hover">
+
+        <th>
+        Customer
+        </th>
+
+        @foreach(var customer in Model.Customers)
+        {
+        <tr>
+            <td> @Html.ActionLink(@customer.Name, "CustomerDetail", "Movies" , new { cst = @customer.Name } , null) </td>
+        </tr>
+        }
+
+    </table>
+}

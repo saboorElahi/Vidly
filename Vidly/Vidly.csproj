@@ -187,6 +187,38 @@
     <Compile Include="Migrations\201708041045412_ApplyAnotationsToCustomerName.Designer.cs">
       <DependentUpon>201708041045412_ApplyAnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708041321121_MemberShipNameInMembershipType.cs" />
+    <Compile Include="Migrations\201708041321121_MemberShipNameInMembershipType.Designer.cs">
+      <DependentUpon>201708041321121_MemberShipNameInMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041327268_UpdateMembershipTypes.cs" />
+    <Compile Include="Migrations\201708041327268_UpdateMembershipTypes.Designer.cs">
+      <DependentUpon>201708041327268_UpdateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041348094_DateAddedToCustomer.cs" />
+    <Compile Include="Migrations\201708041348094_DateAddedToCustomer.Designer.cs">
+      <DependentUpon>201708041348094_DateAddedToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041349346_DateAddedToCustomer1.cs" />
+    <Compile Include="Migrations\201708041349346_DateAddedToCustomer1.Designer.cs">
+      <DependentUpon>201708041349346_DateAddedToCustomer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041431534_PropertiesAddedToMovies.cs" />
+    <Compile Include="Migrations\201708041431534_PropertiesAddedToMovies.Designer.cs">
+      <DependentUpon>201708041431534_PropertiesAddedToMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041432599_InsertDataToMovies.cs" />
+    <Compile Include="Migrations\201708041432599_InsertDataToMovies.Designer.cs">
+      <DependentUpon>201708041432599_InsertDataToMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041437286_MoviesAddedToDataBase.cs" />
+    <Compile Include="Migrations\201708041437286_MoviesAddedToDataBase.Designer.cs">
+      <DependentUpon>201708041437286_MoviesAddedToDataBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041443263_DataAddedToMovies.cs" />
+    <Compile Include="Migrations\201708041443263_DataAddedToMovies.Designer.cs">
+      <DependentUpon>201708041443263_DataAddedToMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -262,6 +294,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <None Include="Views\Customers\Details.cshtml" />
     <None Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <None Include="Views\Movies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -289,6 +322,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708041045412_ApplyAnotationsToCustomerName.resx">
       <DependentUpon>201708041045412_ApplyAnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041321121_MemberShipNameInMembershipType.resx">
+      <DependentUpon>201708041321121_MemberShipNameInMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041327268_UpdateMembershipTypes.resx">
+      <DependentUpon>201708041327268_UpdateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041348094_DateAddedToCustomer.resx">
+      <DependentUpon>201708041348094_DateAddedToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041349346_DateAddedToCustomer1.resx">
+      <DependentUpon>201708041349346_DateAddedToCustomer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041431534_PropertiesAddedToMovies.resx">
+      <DependentUpon>201708041431534_PropertiesAddedToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041432599_InsertDataToMovies.resx">
+      <DependentUpon>201708041432599_InsertDataToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041437286_MoviesAddedToDataBase.resx">
+      <DependentUpon>201708041437286_MoviesAddedToDataBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041443263_DataAddedToMovies.resx">
+      <DependentUpon>201708041443263_DataAddedToMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

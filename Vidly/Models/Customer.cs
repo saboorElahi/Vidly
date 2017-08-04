@@ -13,7 +13,8 @@ namespace Vidly.Models
         [StringLength(255)]
         public string Name { get; set; }
         public bool IsSuscribedToNewsLetter { get; set; }
+        public string DateOfBirth { get; set; }
         public MembershipType MembershipType { get; set; }
-        public byte MembershipTypeId { get; set; }
+        public byte MembershipTypeId { get; set; }                  // Foriegn key
     }
 }

@@ -114,3 +114,11 @@ C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToC
 C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnotationsToCustomerName.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.MemberShipNameInMembershipType.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipTypes.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.DateAddedToCustomer.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.DateAddedToCustomer1.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.PropertiesAddedToMovies.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.InsertDataToMovies.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.MoviesAddedToDataBase.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.DataAddedToMovies.resources

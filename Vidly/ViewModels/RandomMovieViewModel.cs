@@ -12,4 +12,3 @@ namespace Vidly.ViewModels
         public List<Customer> Customers { get; set; }
     }
 }
-

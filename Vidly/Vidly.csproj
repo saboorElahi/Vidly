@@ -167,10 +167,32 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708040715207_InitialModel.cs" />
+    <Compile Include="Migrations\201708040715207_InitialModel.Designer.cs">
+      <DependentUpon>201708040715207_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041020175_AddIsSubscribedToCustomer.cs" />
+    <Compile Include="Migrations\201708041020175_AddIsSubscribedToCustomer.Designer.cs">
+      <DependentUpon>201708041020175_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041029294_AddMembershipType.cs" />
+    <Compile Include="Migrations\201708041029294_AddMembershipType.Designer.cs">
+      <DependentUpon>201708041029294_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041032084_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\201708041032084_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>201708041032084_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708041045412_ApplyAnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201708041045412_ApplyAnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201708041045412_ApplyAnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -184,6 +206,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="ReadMe.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -198,7 +221,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -248,6 +273,23 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201708040715207_InitialModel.resx">
+      <DependentUpon>201708040715207_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041020175_AddIsSubscribedToCustomer.resx">
+      <DependentUpon>201708041020175_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041029294_AddMembershipType.resx">
+      <DependentUpon>201708041029294_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041032084_PopulateMembershipTypes.resx">
+      <DependentUpon>201708041032084_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708041045412_ApplyAnotationsToCustomerName.resx">
+      <DependentUpon>201708041045412_ApplyAnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

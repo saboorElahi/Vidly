@@ -122,3 +122,4 @@ C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.PropertiesAddedToM
 C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.InsertDataToMovies.resources
 C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.MoviesAddedToDataBase.resources
 C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.DataAddedToMovies.resources
+C:\Users\saboo\Desktop\Vidly\Vidly\obj\Debug\Vidly.Migrations.DateAddedToCustomer2.resources
